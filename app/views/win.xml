@@ -1,0 +1,25 @@
+<Alloy>
+	<View id="top">
+		<Label class="screentitle">Select one of the following options</Label>
+	</View>
+	<View id="center">
+		<View class="buttonscontainer">
+			<View class="buttonwrapper">
+				<View class="button">
+					<Label class="buttontext">Option 1</Label>
+				</View>
+			</View>
+			<View class="buttonwrapper">
+				<View class="button">
+					<Label class="buttontext">Option 2</Label>
+				</View>
+			</View>
+			<View class="buttonwrapper">
+				<View class="button">
+					<Label class="buttontext">Option 3</Label>
+				</View>
+			</View>
+		</View>
+	</View>
+	<View id="bottom"></View>
+</Alloy>

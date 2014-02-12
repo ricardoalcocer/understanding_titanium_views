@@ -1,0 +1,56 @@
+"#top": {
+	backgroundColor: "#DBDBDB",
+	height: "33.3%",
+	width: Ti.UI.FILL
+}
+
+	".screentitle":{
+		color: "#000000",
+		font:{
+			fontSize: 22
+		},
+		height: Ti.UI.SIZE,
+		width: Ti.UI.SIZE
+	} 
+
+"#center": {
+	backgroundColor: "#DBDBDB",
+	height: "33.3%",
+	width: Ti.UI.FILL
+} 
+
+	".buttonscontainer":{
+		height: Ti.UI.SIZE,
+		width: Ti.UI.SIZE,
+		layout: "vertical"
+	}
+
+		".buttonwrapper":{
+			height: "33.3%"
+		}
+
+			".button[platform=ios]":{
+				backgroundColor: "#BF7139",
+				borderRadius: 5,
+				top:3,bottom:3,left:8,right:8
+			}
+
+			// because borderRadius behaves differently on Android
+			".button[platform=android]":{
+				backgroundColor: "#BF7139",
+				borderRadius: 15,
+				top:3,bottom:3,left:8,right:8
+			}
+
+				".buttontext":{
+					color: "#000000",
+					font:{
+						fontSize: 18
+					}
+				}
+
+"#bottom": {
+	backgroundColor: "#DBDBDB",
+	height: "33.3%",
+	width: Ti.UI.FILL
+} 

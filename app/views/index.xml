@@ -1,0 +1,16 @@
+<Alloy>
+	<!-- Since this is a cross-platform app, we use native App Containers 			-->
+	<!-- Since they both have the same content, we insert it using the Require 		-->
+
+	<!-- 	For iOS we use the NavigationWindow 									-->
+	<NavigationWindow id="index" platform="ios">
+		<Window class="container" title="Select an option">
+			<Require type="view" id="win" src="win"/>
+		</Window>
+	</NavigationWindow>
+
+	<!-- 	For Android we use a Window (Activity) with an ActionBar 						-->
+	<Window id="index" class="container" title="Select an option" platform="android">
+		<Require type="view" id="win" src="win"/>
+	</Window>
+</Alloy>

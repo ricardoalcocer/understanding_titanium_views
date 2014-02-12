@@ -1,0 +1,13 @@
+".container[platform=ios]": {
+	backgroundColor:"#ffffff",
+	layout: "vertical",
+	barColor:"#222222",
+	orientationModes: [Ti.UI.PORTRAIT,Ti.UI.UPSIDE_PORTRAIT,Ti.UI.LANDSCAPE_LEFT,Ti.UI.LANDSCAPE_RIGHT],
+	statusBarStyle: Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT
+}
+
+".container[platform=android]": {
+	backgroundColor:"#ffffff",
+	layout: "vertical",
+	orientationModes: [Ti.UI.PORTRAIT,Ti.UI.LANDSCAPE_LEFT,Ti.UI.LANDSCAPE_RIGHT]
+}
